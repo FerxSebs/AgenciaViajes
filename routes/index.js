@@ -1,8 +1,7 @@
 //importa el framework express, que permiyte creaar un servidor y manejar rutas
 import express from 'express';
-import { paginaInicio, paginaNosotros, paginaViajes, paginaTestimoniales, paginaDetalleViaje } from '../controllers/PaginasController.js';
+import { paginaInicio, paginaNosotros, paginaViajes, paginaTestimoniales, paginaDetalleViaje } from '../controllers/paginasController.js';
 import { guardarTestimonial } from '../controllers/testimonialesController.js';
-import {paginasController} from '../controllers/paginasController.js';
 //crea una instancia de express
 //este enrutador se utilizara para definir todas las rutas del sitio web
 const router = express.Router();
