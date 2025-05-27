@@ -2,6 +2,7 @@
 import express from 'express';
 import { paginaInicio, paginaNosotros, paginaViajes, paginaTestimoniales, paginaDetalleViaje } from '../controllers/PaginasController.js';
 import { guardarTestimonial } from '../controllers/testimonialesController.js';
+import PaginasController from '../controllers/PaginasController.js';
 //crea una instancia de express
 //este enrutador se utilizara para definir todas las rutas del sitio web
 const router = express.Router();
